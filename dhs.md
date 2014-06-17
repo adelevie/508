@@ -1,4 +1,4 @@
-# 1 INTERACTIVE INTERFACE ELEMENTS
+# 1 Interactive Interface Elements
 
 ## 1.1 Keyboard Access
 
@@ -57,6 +57,7 @@ A. A link does not have a unique and meaningful description [31(a), 31(b), B16]
 B. A scripted element does not have a unique and meaningful description  [22(l), 31(a), 31(b), B16]
 
 # 2 NON-TEXT INTERFACE ELEMENTS
+# 2 Non-Text Interface Elements
 
 ## 2.1 SW: Images
 
@@ -99,7 +100,7 @@ A. An audio file does not have an equivalent text description/transcript [22(a),
 
 A. A server side image map is found [22(e), 22(f), B26]
 
-# 3 COLOR AND CONTRAST
+# 3 Color and Contrast
 
 ## 3.1 Color Dependence
 
@@ -111,17 +112,17 @@ B. In Web, information is provided only by color [22(c), B8]
 
 A. The contrast ratio is less than 4.5:1 for content background and foreground colors [31(b), B9]
 
-# 4 FLASHING
+# 4 Flashing
 
 A. The frequency of a flickering element cannot be determined programmatically [21(k), 22(j), B10]
 
 B. B. The frequency of a flickering element is programmatically set at or above 3 Hz [21(k), 22(j), B10]
 
-# 5 PAGE TITLES
+# 5 Page Titles
 
 A. There is no meaningful page title in plain language [31(a), 31(b), B12]
 
-# 6 MULTIMEDIA
+# 6 Multimedia
 
 A. Synchronized captions are not provided for multimedia [22(b1), 24(c), B20]
 
@@ -131,7 +132,7 @@ C. Synchronized audio descriptions are not provided for multimedia [22(b2), 24(d
 
 D. The provided audio descriptions are not equivalent [22(b2), 24(d), B21]
 
-# 7 TIME OUTS 
+# 7 Time Outs
 
 A. The application timed out without notification [22(p), B25]
 
@@ -139,7 +140,7 @@ B. The application's time out notification is displayed for less than 20 seconds
 
 C. The application timed out without an option to request more time [22(p), B25]
 
-# 8 SW: BUILT-IN ACCESSIBILITY FEATURES 
+# 8 SW: Built-in Accessibility Features 
 
 A. The application disrupted any of the OS Accessibility options (High Contrast, Sticky Keys, Sound Sentry and/or system text size (stand-alone software only)) [21(b), B28]
 
@@ -153,7 +154,7 @@ E. Sticky Keys functionality was disrupted in the application [31(f), B28]
 
 F. Sound Sentry functionality was disrupted by the application [31(c), B28]
 
-# 9 WEB: TEXT PROPERTIES
+# 9 Web: Text Properties
 
 ## 9.1 Web: Language 
 
@@ -168,7 +169,7 @@ A. Visually apparent headings are not programmatically identified [31(a), 31(b),
 
 B. Programmatically identified heading levels do not match the visual outline level [31(a), 31(b), B15]
 
-# 10 WEB: DATA TABLES
+# 10 Web: Data Tables
 
 A. Any data table's row or column headers are not identified programmatically [22(g), B13]
 
@@ -178,7 +179,7 @@ C. A complex data table's data cells are not associated with its headers program
 
 D. An image of a complex data table is found [22(h), B14]
 
-# 11 WEB: STYLE SHEET DEPENDENCE 
+# 11 Web: Style Sheet Dependence
 
 A. The order of the content changed and is not logical [22(d), B22]
 
@@ -188,13 +189,13 @@ C. Any content overlaps or becomes illegible [22(d), B22]
 
 D. Programming code or other confusing elements are revealed on the page [22(d), B22]
 
-# 12 WEB: FRAMES 
+# 12 Web: Frames
 
 A. A frame's Title or Name is non-descriptive [22(i), B23]
 
 B. An iframe's Title or Name is non-descriptive [22(i), B23]
 
-# 13 WEB: REPETITIVE CONTENT AND LINKS 
+# 13 Web: Repetitive Content And Links 
 
 A. There is no method to skip repetitive content [22(o), B5]
 
@@ -204,13 +205,13 @@ C. The skip function does not work properly [22(o), B5]
 
 D. The relative order of repeated components is different from other pages [31(a), 31(b), B3]
 
-# 14 WEB: REQUIRED PLUG-INS
+# 14 Web: Required Plug-Ins
 
 A. In a public site, the link to download a required plug-in is not provided [22(m), B27]
 
 B. The plug-in required to view content is not compliant [21(a)-(l) as applicable, No baseline]
 
-# 15 WEB: ALTERNATIVE (ACCESSIBLE) VERSION 
+# 15 Web: Aalternative (Accessible) Version 
 
 A. An alternative page does not contain equivalent information as the primary page [22(k), B24]
 

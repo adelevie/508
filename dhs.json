@@ -1,0 +1,245 @@
+[
+  {
+    title: "Interactive Interface Elements",
+    items: [
+      {
+        title: "Keyboard Access",
+        items: [
+          "An interactive element or function cannot be accessed or activated by keyboard [21(a), B1]",
+          "A keyboard trap is found [21(a), B1]",
+          "Non-standard or alternative keyboard commands are required for access but are not documented [21(a), B1]",
+          "Information revealed by mouse over (TITLE) is not available to keyboard-only users (i.e., there is no equivalent screen text or visual context) [21(a), B1]",
+          "At any time, there is no visual indication of the current focus (loss of focus) [21(c), B2]",          
+          "The visual focus appears on the wrong element [21(c), B2]",
+          "The visual focus does not remain within a modal dialog box until closed [21(c), B4]",
+          "The visual focus does not move to revealed content and no description of the content change is provided [31(a), 31(b), B4]",
+          "The tab order is not logical [31(a), 31(b), B3]"
+        ]
+      },
+      {
+        title: "SW: All interactive elements",
+        items: [
+          "A user control does not have a descriptive and unique Name property [21(d), B16]",
+          "A user control has an incorrect Role and/or State [21(d), B16]",
+          "An interactive interface element that has multiple statuses does not indicate its current status [21(d), B6]",
+          "An input form (text field, checkbox, radio button, etc.) Name does not match its visual label or does not include complete instructions and cues [21(d), 21(l), B11]",
+          "An input form Role does not accurately reflect its function [21(d), 21(l), B11]",
+          "An input form State does not accurately reflect that it is selected or has focus [21(d), 21(l), B11]",
+          "An input text field has an incorrect Value. [21(f), 21(l), B11]"
+        ]
+      },
+      {
+        title: "Web: Forms",
+        items: [
+          "A Web form field has no markup to associate it to its complete instructions and cues [22(n), B11]",
+          "If 'Label for' and 'ID' are used but are not valid HTML [22(n), B11]",
+          "Form instructions are revealed only by mouse over (TITLE) and are not available onscreen  [22(n), B11]",
+          "An ARIA form's Name property does not contain complete instructions  [22(n), B11]",
+          "An ARIA form's Role or State or Value property is not correct [22(n), B11]",
+          "A form control does not identify its purpose [22(n), B11]"
+        ]
+      },
+      {
+        title: "Web: Links and User Controls",
+        items: [
+          "A link does not have a unique and meaningful description [31(a), 31(b), B16]",
+          "A scripted element does not have a unique and meaningful description  [22(l), 31(a), 31(b), B16]"
+        ]
+      },
+      {
+        title: "Web: Links and User Controls",
+        items: [
+          "A link does not have a unique and meaningful description [31(a), 31(b), B16]",
+          "A scripted element does not have a unique and meaningful description  [22(l), 31(a), 31(b), B16]"
+        ]
+      }
+    ]
+  },
+  
+  {
+    title: "Non-Text Interface Elements",
+    items: [
+      {
+        title: "SW: Images",
+        items: [
+          "An image does not have an equivalent text description (Name), correct Role, or correct State [21(d), B7]",
+          "Any interface element that has multiple statuses does not indicate its current status [21(d), B6]",
+          "A data table's headers are not identified [21(d), B13]",
+          "A complex data table cell is not associated to its header(s) [21(d), B14]",
+          "An image has inconsistent meaning [21(e), B7]"
+        ] 
+      },
+      {
+        title: "Web: Images",
+        items: [
+          "A Web image does not have an ALT or TITLE or ARIA attribute [22(a), B7]",
+          "A meaningful image does not have an equivalent text description (purpose and function) [22(a), B7]",
+          "A decorative image does not have ALT=[22(a), B7]",
+          "An image that contains text does not have the same text in the ALT [22(a), B7]",
+          "A CAPTCHA image ALT does not describe its purpose [22(a), B7]",
+          "A multi-state component does not provide complete status information [31(a), 31(b), B6]",
+          "An image has inconsistent meaning [21(e), B7]"
+        ]
+      },
+      {
+        title: "Video-only and Animation",
+        items: [
+          "In SW, an animation does not have an equivalent text or audio description [21(h), B19]",
+          "In Web, a video-only file does not have an equivalent text or audio description [22(a), 24(d), B19]"
+        ]
+      },
+      {
+        title: "Web: Audio-only",
+        items: [
+          "An audio file does not have an equivalent text description/transcript [22(a), B18]"
+        ] 
+      },
+      {
+        title: "Web: Image Maps",
+        items: [
+           "A server side image map is found [22(e), 22(f), B26]"
+        ]
+      }
+    ]
+  },
+
+  {
+    title: "Color and Contrast",
+    items: [
+      {
+        title: "Color Dependence",
+        items: [
+          "In software, information is provided only by color [21(i), B8]",
+          "In Web, information is provided only by color [22(c), B8]"
+        ]
+      },
+      {
+        title: "Color Contrast",
+        items: [
+          "The contrast ratio is less than 4.5:1 for content background and foreground colors [31(b), B9]"
+        ]
+      }
+    ]
+  },
+
+  {
+    title: "Flashing",
+    items: [
+      "The frequency of a flickering element cannot be determined programmatically [21(k), 22(j), B10]",
+      "The frequency of a flickering element is programmatically set at or above 3 Hz [21(k), 22(j), B10]"   
+    ]
+  },
+
+  {
+    title: "Page Titles",
+    items: [
+      "There is no meaningful page title in plain language [31(a), 31(b), B12]"
+    ]
+  },
+
+  {
+    title: "Multimedia",
+    items: [
+      "Synchronized captions are not provided for multimedia [22(b1), 24(c), B20]",
+      "The provided captions for multimedia are not equivalent [22(b1), 24(c), B20]",
+      "Synchronized audio descriptions are not provided for multimedia [22(b2), 24(d), B21]",
+      "The provided audio descriptions are not equivalent [22(b2), 24(d), B21]"    
+    ]
+  },
+  
+  {
+    title: "Time Outs",
+    items: [
+      "The application timed out without notification [22(p), B25]",
+      "The application's time out notification is displayed for less than 20 seconds [22(p), B25]",
+      "The application timed out without an option to request more time [22(p), B25]"
+    ]
+  },
+
+  {
+    title: "SW: Built-in Accessibility Features",
+    items: [
+      "The application disrupted any of the OS Accessibility options (High Contrast, Sticky Keys, Sound Sentry and/or system text size (stand-alone software only)) [21(b), B28]",
+      "The application does not adopt the OS high contrast display settings [21(g), B28]",
+      "Text of application did not enlarge or became illegible when enlarged [21(g), B28]",
+      "The application did not adopt the OS high contrast colors, 21(g), and the application does not offer at least 4 color options [DHS-Specific: 21(j), no baseline]",
+      "Sticky Keys functionality was disrupted in the application [31(f), B28]",
+      "Sound Sentry functionality was disrupted by the application [31(c), B28]"    
+    ]
+  },
+
+  {
+    title: "Web: Text Properties",
+    items: [
+      {
+        title: "Web: Language",
+        items: [
+          "The correct default language for the page is not programmatically set [31(a), 31(b), B17]",
+          "A passage (content, image descriptions, form labels etc.) that differs from the default language of the page is not programmatically identified correctly [31(a), 
+          31(b), B17]"
+        ]
+      },
+      {
+        title: "Web: Section Headings",
+        items: [
+          "Visually apparent headings are not programmatically identified [31(a), 31(b), B15]",
+          "Programmatically identified heading levels do not match the visual outline level [31(a), 31(b), B15]"
+        ]
+      }
+    ]
+  },
+  
+  {
+    title: "Web: Data Tables",
+    items: [
+      "Any data table's row or column headers are not identified programmatically [22(g), B13]",
+      "An image of a data table is found [22(g), B13]",
+      "A complex data table's data cells are not associated with its headers programmatically [22(h), B14]",
+      "An image of a complex data table is found [22(h), B14]"
+    ]
+  },
+
+  {
+    title: "Web: Style Sheet Dependence",
+    items: [
+      "The order of the content changed and is not logical [22(d), B22]",
+      "Relevant content or information from a meaningful image is not available [22(d), B22]",
+      "Any content overlaps or becomes illegible [22(d), B22]",
+      "Programming code or other confusing elements are revealed on the page [22(d), B22]"      
+    ]
+  },
+
+  {
+    title: "Web: Frames",
+    items: [
+      "A frame's Title or Name is non-descriptive [22(i), B23]",
+      "An iframe's Title or Name is non-descriptive [22(i), B23]"
+    ]
+  },
+
+  {
+    title: "Web: Repetitive Content And Links",
+    items: [
+      "There is no method to skip repetitive content [22(o), B5]",
+      "The skip function's target is not located after the repetitive content [22(o), B5]",
+      "The skip function does not work properly [22(o), B5]",
+      "The relative order of repeated components is different from other pages [31(a), 31(b), B3]"
+    ]
+  },
+
+  {
+    title: "Web: Required Plug-Ins",
+    items: [
+      "In a public site, the link to download a required plug-in is not provided [22(m), B27]",
+      "The plug-in required to view content is not compliant [21(a)-(l) as applicable, No baseline]"    
+    ]
+  },
+
+  {
+    title: "Web: Aalternative (Accessible) Version"
+    items: [
+      "An alternative page does not contain equivalent information as the primary page [22(k), B24]",
+      "The primary site can be made compliant [22(k), No baseline]  "
+    ]
+  }
+]

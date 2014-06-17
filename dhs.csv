@@ -1,7 +1,7 @@
 Test ID ,Compliant?,Comments/Non Compliant Sections,Issue Logged?
 1 INTERACTIVE INTERFACE ELEMENTS,,,
 1.1 Keyboard Access,,,
-"A. An interactive element or function cannot be accessed or activated by keyboard [21(a), B1]",,,
+"A. An interactive element or function cannot be \naccessed or activated by keyboard [21(a), B1]",,,
 "B. A keyboard ""trap"" is found [21(a), B1]",,,
 "C. Non-standard or alternative keyboard commands are required for access but are not documented [21(a), B1]",,,
 "D. Information revealed by mouse over (TITLE) is not available to keyboard-only users (i.e., there is no equivalent screen text or visual context) [21(a), B1]",,,

@@ -56,7 +56,6 @@ A. A link does not have a unique and meaningful description [31(a), 31(b), B16]
 
 B. A scripted element does not have a unique and meaningful description  [22(l), 31(a), 31(b), B16]
 
-# 2 NON-TEXT INTERFACE ELEMENTS
 # 2 Non-Text Interface Elements
 
 ## 2.1 SW: Images
